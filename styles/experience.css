@@ -1,0 +1,86 @@
+body {
+    background-color: #121212; /* Slightly greyish black */
+    color: #E0E0E0; /* Light grey */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.main-container {
+    padding-top: 50px; /* Add padding to the top */
+}
+
+.container {
+    max-width: 800px; /* Make the container wider */
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #E0E0E0; /* Light grey */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: #9575CD; /* Light shade of purple */
+    text-decoration: none;
+}
+
+.navigation a.current-page {
+    color: #BBDEFB; /* Light shade */
+    text-decoration: underline;
+}
+
+.about-content {
+    margin-top: 20px;
+    text-align: left; /* Align content to left */
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #9575CD; /* Light shade of purple */
+}
+
+.about-content h4, .about-content h5 {
+    font-size: 20px;
+    color: #BBDEFB; /* Light shade */
+}
+
+.about-content p, .about-content li {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.about-content ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent bullet points */
+}
+
+.about-content li {
+    margin: 5px 0;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #BBDEFB; /* Light shade */
+}
+
+.footer a {
+    color: #BBDEFB; /* Light shade */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #9575CD; /* Light shade of purple on hover */
+}

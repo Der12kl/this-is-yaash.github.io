@@ -1,0 +1,28 @@
+/* Retro-style CSS */
+.terminal-command {
+    color: #64DD17; /* Light green */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.terminal-output {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E0E0E0; /* Light grey */
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.about-me {
+    background-color: #212121; /* Dark grey */
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50; /* Dark green */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #E0E0E0; /* Light grey */
+    line-height: 1.8;
+}

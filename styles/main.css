@@ -1,0 +1,89 @@
+body {
+    background-color: #121212; /* Slightly greyish black */
+    color: #E0E0E0; /* Light grey */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.main-container {
+    padding-top: 50px; /* Add padding to the top */
+}
+
+.container {
+    max-width: 800px; /* Make the container wider */
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #E0E0E0; /* Light grey */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left; /* Align header to left */
+    color: #9575CD; /* Light shade of purple */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #9575CD; /* Light shade of purple */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.head-link {
+    color: #9575CD; /* Light shade of purple */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.head-link:hover {
+    color: #7E57C2; /* Darker shade of purple on hover */
+}
+
+.about-me {
+    margin-top: 20px;
+    text-align: left; /* Align content to left */
+}
+
+.about-me p {
+    font-size: 18px;
+    margin: 0;
+    text-align: left; /* Align content to left */
+}
+
+.about-me p {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    color: #9575CD; /* Light shade of purple */
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #BBDEFB; /* Light shade */
+}
+
+.footer a {
+    color: #BBDEFB; /* Light shade */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #9575CD; /* Light shade of purple on hover */
+}
