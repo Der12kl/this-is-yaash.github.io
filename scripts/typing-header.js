@@ -1,12 +1,13 @@
 // typing-header.js
 document.addEventListener("DOMContentLoaded", function() {
     const texts = [
-        "I'm a final year MS student.",
-        "I'm a researcher.",
-        "Linux enthusiast.",
-        "Open-source enthusiast."
+        "I'm a Final Year MS Student. 👨‍🎓",
+        "I like to Explore & Research. 🔍",
+        "Open-Source & Linux enthusiast. 🐧",
+        "I'm passionate about Open-Source Software Development. 💻",
+        "I'm enthusiastic about Community-Building and Knowledge Sharing. 🌟",
     ];
-
+    
     let index = 0;
     let textIndex = 0;
     const typingSpeed = 50; // Speed of typing

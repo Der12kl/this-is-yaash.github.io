@@ -26,3 +26,35 @@
     color: #E0E0E0; /* Light grey */
     line-height: 1.8;
 }
+.skills h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #64DD17; /* Light green */
+}
+
+.skills-type h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #64DD17; /* Light green */
+}
+
+.skills-type ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove padding */
+}
+
+.skills-type li {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E0E0E0; /* Light grey */
+    line-height: 1.8;
+    position: relative;
+    padding-left: 20px; /* Add space for custom bullet */
+    margin-bottom: 10px;
+}
+
+.skills-type li::before {
+    content: "•"; /* Custom bullet point */
+    color: #64DD17; /* Light green */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
