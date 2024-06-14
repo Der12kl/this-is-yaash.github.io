@@ -5,32 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="./styles/aboutme.css"> <!-- Link to separate CSS file -->
+    <link rel="stylesheet" href="./styles/para.css"> <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="./styles/skills.css"> <!-- Link to skills CSS file -->
     <link rel="icon" href="./images/favicon.png" type="image/x-icon"> <!-- Link to favicon -->
-
 </head>
 <body>
     <div class="main-container">
         <div class="container">
             <h1>About Me</h1>
             <div class="navigation">
-                <div class="navigation">
-                    <p>
-                        <a href="index.html">Home</a> |
-                        <a href="about.html" class="current-page">About</a> |
-                        <a href="experience.html">Experience</a> |
-                        <a href="projects.html">Projects</a> |
-                        <a href="certificates.html">Certificates</a> |
-                        <a href="contributions.html">OS Contribution</a>
-                    </p>
-                </div>
+                <p>
+                    <a href="index.html">Home</a> |
+                    <a href="about.html" class="current-page">About</a> |
+                    <a href="experience.html">Experience</a> |
+                    <a href="projects.html">Projects</a> |
+                    <a href="certificates.html">Certificates</a> |
+                    <a href="contributions.html">OS Contribution</a>
+                </p>
             </div>
             <div class="about-content">
-                <p>I'm an open-source enthusiast with a passion for technology, always looking to make meaningful contributions to open-source projects and the tech industry to create a better world of open-source. I like to explore, research & invent new stuff related to Linux & Open-Source. Proficient in Python & Shell Scripting, and well-versed in Git for version control. I have a keen interest in Linux systems and helping contribute to the open-source community.</p>
-            </div>
+                <div class="about-me">
+                    <span class="terminal-command">$</span> 
+                    <span id="typing-header" class="terminal-output"></span>
+                </div>
+                <div class="about-me">
+                    <ul>
+                        <li>Open-source enthusiast with a passion for technology. 🌟</li>
+                        <li>Aims to make meaningful contributions to open-source projects and the tech industry. 💡</li>
+                        <li>Enjoys exploring, researching, and inventing new technologies related to Linux and Open-Source. 🔍</li>
+                        <li>Keen interest in Linux systems & their environment. 🐧</li>
+                    </ul>
+                </div>      
+                <div class="about-me">
+                    <p class="terminal-command"><span class="terminal-command">$</span> skills --proficient</p>
+                    <p class="terminal-output">Python<br>
+                        Shell Scripting <br>
+                        Git <br>
+                        Linux Systems <br>
+                    </p>
+                </div>    
+                <div class="about-me">
+                    <p class="terminal-command"><span class="terminal-command">$</span> learning --basic</p>
+                    <p class="terminal-output">Kubernetes<br>
+                        Java<br>
+                        Go<br>
+                    </p>
+                </div>                     
             <div class="footer">
                 <p><a href="resume.pdf" target="_blank">Resume</a> | Yashwanth @ 2024</p>
             </div>
         </div>
     </div>
+
+    <script src="./scripts/typing-header.js"></script> <!-- Link to the new JavaScript file -->
 </body>
 </html>
