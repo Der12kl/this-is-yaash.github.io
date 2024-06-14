@@ -26,25 +26,3 @@
     color: #E0E0E0; /* Light grey */
     line-height: 1.8;
 }
-
-.about-me ul {
-    list-style-type: none; /* Remove default bullet points */
-    padding-left: 20px; /* Add some padding for indentation */
-}
-
-.about-me li {
-    font-size: 16px;
-    color: #E0E0E0; /* Light grey */
-    line-height: 1.8;
-    position: relative;
-    padding-left: 20px; /* Add space for custom bullet */
-    margin-bottom: 10px;
-}
-
-.about-me li::before {
-    content: "•"; /* Custom bullet point */
-    color: #64DD17; /* Light green */
-    position: absolute;
-    left: 0;
-    top: 0;
-}
